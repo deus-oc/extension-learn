@@ -1,1 +1,2 @@
-Just a simple cross browser extension to understand content Script
+Just a simple cross browser extension to understand content script
+In order to test the add-on, load it as temp extensions through debugging mode and then run the websites where actions are being taken
