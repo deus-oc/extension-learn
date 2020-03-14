@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Context menu demo",
+    "description": "Searches selected text on DuckDuckGo",
+    "version": "1.0",
+    "icons": {
+        "64": "./icons/duck.png"
+    },
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
