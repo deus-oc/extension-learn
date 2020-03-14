@@ -17,8 +17,8 @@
     "permissions":["notifications"],
     "content_scripts": [
         {
-            "matches": "<all_ursl>",
-            "scripts": ["body.js"]
+            "matches": ["<all_urls>"],
+            "js": ["body.js"]
         }
     ],
     "page_action": {

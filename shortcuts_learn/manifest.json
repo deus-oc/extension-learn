@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Shortcuts",
+    "description": "adding input shortcuts",
+    "version": "1.0.1",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_title": "My action",
+        "default_popup": "action.html"
+    },
+    "permissions": ["notifications"],
+    "commands": {
+        "my-shortcut": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+1",
+                "mac": "Ctrl+Shift+1"
+            },
+            "description": "adds a notification"
+        },
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+2",
+                "mac": "Ctrl+Shift+2"
+            }
+        } 
+    }
+}
