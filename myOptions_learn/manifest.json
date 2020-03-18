@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "myOptions",
+    "description": "Adding user options",
+    "version": "1.0",
+    "icons": {
+        "64": "./icons/icon.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "64": "./icons/icon.png" 
+        },
+        "default_popup": "action/index.html",
+        "default_title": "Option Addon"
+    },
+    "options_ui": {
+        "page": "option/index.html"
+    },
+    "permissions": ["storage"]
+}
